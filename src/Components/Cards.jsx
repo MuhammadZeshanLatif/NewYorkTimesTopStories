@@ -29,6 +29,7 @@ export const NewsCard = ({ newsItem }) => {
                         Read more
                     </a>
                 </div>
-            </div></a>
+            </div>
+        </a>
     )
 }
