@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { NewsCard } from './Components/cards';
+import { NewsCard } from './Components/cards.jsx';
 
 const App = () => {
   const [news, setNews] = useState([]);
