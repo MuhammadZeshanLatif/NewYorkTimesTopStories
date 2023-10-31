@@ -3,7 +3,7 @@ export const NewsCard = ({ newsItem }) => {
     console.log(newsItem)
     return (
         <a
-            className="text-black-500 no-underline:none"
+            className="no-underline:none"
             href={newsItem.url}
             target="_blank"
             rel="noopener noreferrer"
